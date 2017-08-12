@@ -4,40 +4,40 @@
 width="460"
 height="75"
 scrolling="false"
-directory_title="Google Gadget til afspilning af lydfiler"
-description="HTML 5 lydafspiller. Kan afspille filtyperne MP3 og OGG.">
+directory_title="Google Gadget to use an HTML5 audio player. Can play mp3 or ogg files"
+description="Using an html5 audio player. Can play mp3 or ogg files. Google Gadget.">
 
 
 </ModulePrefs>
 
-<UserPref name="FILE" display_name="Lydfil" required="true" default_value="https://ia601903.us.archive.org/31/items/1360121/136012%20%281%29.mp3" />
+<UserPref name="FILE" display_name="File to play" required="true" default_value="https://ia601903.us.archive.org/31/items/1360121/136012%20%281%29.mp3" />
 
-<UserPref name="TYPE" display_name="Filtype" default_value="mp3" datatype="enum" >
+<UserPref name="TYPE" display_name="File type" default_value="mp3" datatype="enum" >
 <EnumValue value="mp3" />
 <EnumValue value="ogg" />
 </UserPref>
 
 <UserPref name="START" display_name="Auto Start?" required="false" datatype="enum" >
-<EnumValue value="Nej" />
-<EnumValue value="Ja" />
+<EnumValue value="No" />
+<EnumValue value="Yes" />
 </UserPref>
 
-<UserPref name="LOOP" display_name="Afspil kontinuerligt?" required="false" datatype="enum" >
-<EnumValue value="Nej" />
-<EnumValue value="Ja" />
+<UserPref name="LOOP" display_name="Loop Audio?" required="false" datatype="enum" >
+<EnumValue value="No" />
+<EnumValue value="Yes" />
 </UserPref>
     
-<UserPref name="GDOWNLOAD" display_name="Vis link til filen INDE i afspilleren?" required="false" datatype="enum" >
-<EnumValue value="Nej" />
-<EnumValue value="Ja" />
+<UserPref name="GDOWNLOAD" display_name="Show download link INSIDE player?" required="false" datatype="enum" >
+<EnumValue value="No" />
+<EnumValue value="Yes" />
 </UserPref>
 
-<UserPref name="DOWNLOAD" display_name="Vis link til filen UNDER afspilleren?" required="false" datatype="enum" >
-<EnumValue value="Ja" />
-<EnumValue value="Nej" />
+<UserPref name="DOWNLOAD" display_name="Show download link BELOW player?" required="false" datatype="enum" >
+<EnumValue value="Yes" />
+<EnumValue value="No" />
 </UserPref>
 
-<UserPref name="CCOL" display_name="Baggrundsfarve (brug html farvekoder)" required="true" default_value="#ffffff" />
+<UserPref name="CCOL" display_name="Background Color (search html color code for details)" required="true" default_value="#ffffff" />
 
 <Content type="html"><![CDATA[
 
